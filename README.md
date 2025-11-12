@@ -97,7 +97,7 @@ ________________________________________________________________________________
 
 ***//////  CATÁLOGO COMPLETO DE RECURSOS  ///////***
 
-Hay 5 cursos registrados
+*Hay 5 cursos registrados*
 --------------------------------------------------
 1. Ver Listado Completo (con Paginación)
 2. Buscar Cursos (por Título, Descripción o Responsable)

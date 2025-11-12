@@ -23,11 +23,9 @@ eficiente de contenido.
 La aplicación **Catálogo de Cursos** organiza el contenido en distintas áreas temáticas (Inglés, Programación, Economía, Marketing) 
 y ofrece un menú interactivo con las siguientes capacidades:
 
-- |....**Funcionalidad**...|..........................................**Descripción**....................................................|
-- |........................|.............................................................................................................|
-- |.Visualización Completa.|.Muestra la lista exhaustiva de todos los cursos disponibles en el catálogo..................................|
-- |.Búsqueda Dinámica......|.Permite filtrar cursos por palabra clave, buscando coincidencias en el nombre o el área de especialización..|
-- |.....Detalle por ID.....|.Accede y muestra la información detallada de un curso específico utilizando su identificador único (ID).....|
+- **Visualización Completa**> Muestra la lista exhaustiva de todos los cursos disponibles en el catálogo.
+- **Búsqueda Dinámica**> Permite filtrar cursos por palabra clave, buscando coincidencias en el nombre o el área de especialización.
+- **Detalle por ID**> Accede y muestra la información detallada de un curso específico utilizando su identificador único (ID).
 
 
 
@@ -45,12 +43,11 @@ text
  
 **⚙️ 3. Stack Tecnológico y Herramientas**
 
-|...**Categoría**...|.**Tecnología/Herramienta**.|...........................................**Uso Específico**................................................|
-|.....Lenguaje......|.............C#.............|  Lógica de negocio e interfaz de consola.                                                                   |
-|....Plataforma.....|            .NET	           |  Framework de la aplicación de consola.                                                                     |
-|........IDE........|   Visual Studio / VS Code  | Entorno de desarrollo integrado.                                                                            |
-|......Versiones....| 	      Git & GitHub	       | Control de versiones,   branching (ramas) y gestión de Pull Requests.                                       |
-|.....Gestión.......| 	          Trello	         | Planificación, seguimiento de tareas (Backlog, In Progress, Done) y gestión de tiempos (Calendar Power-Up). |
+- **Lenguaje** *< C >* :Lógica de negocio e interfaz de consola.
+- **Plataforma** *< .NET >* :Framework de la aplicación de consola.                                                                     
+- **IDE**  *< Visual Studio / VS Code >* :Entorno de desarrollo integrado.                                                                            |
+- **Versiones** *< Git & GitHub >* :Control de versiones,   branching (ramas) y gestión de Pull Requests.                                       |
+- **Gestión**  *< Trello	>* :Planificación, seguimiento de tareas (Backlog, In Progress, Done) y gestión de tiempos (Calendar Power-Up). |
  
 ---------------------------------------------------------------------------------------------------------------------------
 
@@ -62,8 +59,8 @@ ________________________________________________________________________________
 
 - CataloApp/
 - │
-- ├── Program.cs           → Lógica principal y manejo de la aplicación.
-- └── README.md            → Documento de referencia del proyecto.
+- Program.cs           → Lógica principal y manejo de la aplicación.
+- README.md            → Documento de referencia del proyecto.
 __________________________________________________________________________________
 
 ** 4.2. EjecucIón desde Terminal (VS Code ) **

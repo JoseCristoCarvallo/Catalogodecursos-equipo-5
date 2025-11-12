@@ -76,13 +76,13 @@ namespace CatalogoCursosApp
                             Console.WriteLine("\n¡Gracias! Presiona cualquier tecla para finalizar...");
                             break;
                         default:
-                            DisplayError("Opción NO válida. Por favor, selecciona 1, 2 o 3.");
+                            DisplayError(" >>> Opción NO válida. Por favor, selecciona 1, 2 o 3.");
                             break;
                     }
                 }
                 else
                 {
-                    DisplayError("Entrada NO válida. Por favor, introduce un número.");
+                    DisplayError(" >>>Entrada NO válida. Por favor, introduce un número.");
                 }
 
                 if (isRunning)

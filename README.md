@@ -1,6 +1,6 @@
-##README##
+**README**
 
-📚 Catálogo de Cursos Digitales – Equipo 5
+*📚 Catálogo de Cursos Digitales – Equipo 5*
 
 ~ Proyecto Académico | Ingeniería en Sistemas 
 

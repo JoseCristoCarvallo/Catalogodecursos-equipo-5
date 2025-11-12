@@ -1,4 +1,4 @@
-README 
+** README **
 
 📚 Catálogo de Cursos Digitales – Equipo 5
 
@@ -6,7 +6,7 @@ README
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-## 1. Descripción General del Proyecto
+ 1. Descripción General del Proyecto
 
 Este proyecto académico simula el desarrollo de una mini-aplicación de consola en **C#** (`.NET Console Application`) 
 que funciona como un catálogo interactivo de cursos. Su objetivo principal fue implementar y demostrar un flujo de trabajo 
@@ -65,13 +65,13 @@ ________________________________________________________________________________
 ** 4.2. EjecucIón desde Terminal (VS Code ) **
 Asegúrese de tener el SDK de .NET instalado.
 
-# Navegar al directorio raís del proyecto
+- Navegar al directorio raís del proyecto
 cd CatalogoApp
 
-# Compilar y ejecutar el programa
+- Compilar y ejecutar el programa
 dotnet run
 
-### 🔹 Opción 2 — En terminal (VS Code / CMD)
+- 🔹 Opción 2 — En terminal (VS Code / CMD)
 bash
 dotnet new console -n CatalogoCursos
 cd CatalogoCursos
@@ -84,7 +84,7 @@ ________________________________________________________________________________
 2. Reemplazar el contenido del archivo Program.cs con el código fuente del repositorio.
 3. Presionar Ctrl + F5 para ejecutar la aplicación sin depuración.
 
-## ▶️ Ejecución del programa
+- ▶️ Ejecución del programa
 
 ### 🔹 Opción 1 — En Visual Studio
 1. Crear un nuevo proyecto de consola (.NET).

@@ -64,7 +64,7 @@ namespace CatalogoCursosApp
                     {
                         case 1:
                             // Muestra todos los cursos y maneja la paginación
-                            DisplayCourses(Cursos, "Catálogo Completo de Cursos");
+                            DisplayCourses(Cursos, " >>>> Catálogo Completo de Cursos <<<<");
                             break;
                         case 2:
                             // Pide un texto y busca los cursos que coincidan
@@ -87,7 +87,7 @@ namespace CatalogoCursosApp
 
                 if (isRunning)
                 {
-                    Console.WriteLine("\n--- Presiona ENTER para volver al menú ---");
+                    Console.WriteLine("\n/// Presiona ENTER para volver al menú ///");
                     Console.ReadLine();
                 }
             }
@@ -99,9 +99,9 @@ namespace CatalogoCursosApp
         private static void DisplayMenu()
         {
             Console.ForegroundColor = ConsoleColor.Cyan; // Pone el color del texto en Cyan
-            Console.WriteLine("==================================================");
+            Console.WriteLine("//////////////////////////////////////////////////");
             Console.WriteLine("=   SEGUIMIENTO DE TAREAS DEL EQUIPO: CATÁLOGO   =");
-            Console.WriteLine("==================================================");
+            Console.WriteLine("//////////////////////////////////////////////////");
             Console.ResetColor(); // Vuelve al color de texto normal
             Console.WriteLine($"Hay {Cursos.Count} cursos registrados.");
             Console.WriteLine("--------------------------------------------------");
@@ -162,7 +162,7 @@ namespace CatalogoCursosApp
                 // Cálculo para saber el número total de páginas
                 int totalPages = (int)Math.Ceiling((double)sourceList.Count / CursosPorPagina);
                 Console.WriteLine($"\nTotal de cursos: {sourceList.Count} | Páginas: {PaginaActual} de {totalPages}");
-                Console.WriteLine("-------------------------------------------------");
+                Console.WriteLine("********************************************");
                 Console.WriteLine("N. Siguiente | P. Anterior | M. Volver al Menú");
                 Console.Write("Opción: ");
 
@@ -173,17 +173,17 @@ namespace CatalogoCursosApp
                 {
                     case "N":
                         if (PaginaActual < totalPages) PaginaActual++; // Si no es la última página, avanza
-                        else Console.WriteLine("Estás en la última página.");
+                        else Console.WriteLine(">> Estás en la última página.");
                         break;
                     case "P":
                         if (PaginaActual > 1) PaginaActual--; // Si no es la primera página, retrocede
-                        else Console.WriteLine("Estás en la primera página.");
+                        else Console.WriteLine(" >> Estás en la primera página.");
                         break;
                     case "M":
                         viewing = false; // Salir del bucle de paginación
                         break;
                     default:
-                        DisplayError("Opción de navegación no válida.");
+                        DisplayError(" >>> Opción de navegación no válida.");
                         break;
                 }
                 // Si el usuario escribió algo que no es N, P o M, se detiene para que pueda leer el error.
@@ -199,7 +199,7 @@ namespace CatalogoCursosApp
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("\n--- BUSCADOR DE CURSOS ---");
+            Console.WriteLine("\n /// BUSCADOR DE CURSOS ///");
             Console.ResetColor();
             Console.Write("Introduce el texto a buscar: ");
 
@@ -208,7 +208,7 @@ namespace CatalogoCursosApp
 
             if (string.IsNullOrWhiteSpace(searchTerm))
             {
-                DisplayError("Debes escribir algo para buscar.");
+                DisplayError(" <<<< Debes escribir algo para buscar. >>>>");
                 return;
             }
 
@@ -222,12 +222,12 @@ namespace CatalogoCursosApp
             if (results.Count > 0)
             {
                 // Muestra los resultados encontrados usando la función de paginación
-                DisplayCourses(results, $"Resultados para la búsqueda: '{searchTerm}'");
+                DisplayCourses(results, $" - Resultados para la búsqueda: '{searchTerm}'");
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"\nNo se encontró ningún curso que coincida con '{searchTerm}'.");
+                Console.WriteLine($"\n >>> No se encontró ningún curso que coincida con '{searchTerm}'.");
                 Console.ResetColor();
             }
         }

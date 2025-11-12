@@ -54,14 +54,14 @@ text
 **💻 4. Guía de Ejecución**
 
 Para iniciar la aplicación, siga las instrucciones según su entorno de desarrollo:
-__________________________________________________________________________________
+
 **4.1. Estructura del Repositorio** 
 
 - CataloApp/
 - │
 - Program.cs           → Lógica principal y manejo de la aplicación.
 - README.md            → Documento de referencia del proyecto.
-__________________________________________________________________________________
+
 
 ** 4.2. EjecucIón desde Terminal (VS Code ) **
 Asegúrese de tener el SDK de .NET instalado.
@@ -78,7 +78,7 @@ dotnet new console -n CatalogoCursos
 cd CatalogoCursos
 *Reemplazar Program.cs con el código del repositorio*
 dotnet run
-__________________________________________________________________________________
+
 
 ** 4.3. Ejecución en Visual Studio ** 
 

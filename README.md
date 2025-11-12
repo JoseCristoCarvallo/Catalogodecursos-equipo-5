@@ -1,8 +1,8 @@
-** README **
+**README**
 
 📚 Catálogo de Cursos Digitales – Equipo 5
 
-**Proyecto Académico | Ingeniería en Sistemas
+>>> Proyecto Académico | Ingeniería en Sistemas <<<
 
 ---------------------------------------------------------------------------------------------------------------------------
 
@@ -44,12 +44,12 @@ text
  
 ⚙️ 3. Stack Tecnológico y Herramientas
 
-Categoría    |	Tecnología/Herramienta |	Uso Específico                                                                                             |
-Lenguaje	   |           C#	           |  Lógica de negocio e interfaz de consola.                                                                   |
-Plataforma	 |          .NET	         |  Framework de la aplicación de consola.                                                                     |
+Categoría    |	Tecnología/Herramienta  |	Uso Específico                                                                                              |
+Lenguaje	    |           C#	           |  Lógica de negocio e interfaz de consola.                                                                   |
+Plataforma	  |          .NET	          |  Framework de la aplicación de consola.                                                                     |
 IDE	         | Visual Studio / VS Code | Entorno de desarrollo integrado.                                                                            |
 Versiones    | 	     Git & GitHub	     | Control de versiones,   branching (ramas) y gestión de Pull Requests.                                       |
-Gestión      | 	        Trello	       | Planificación, seguimiento de tareas (Backlog, In Progress, Done) y gestión de tiempos (Calendar Power-Up). |
+Gestión      | 	        Trello	        | Planificación, seguimiento de tareas (Backlog, In Progress, Done) y gestión de tiempos (Calendar Power-Up). |
 
 ---------------------------------------------------------------------------------------------------------------------------
 
@@ -71,7 +71,7 @@ cd CatalogoApp
 - Compilar y ejecutar el programa
 dotnet run
 
-- 🔹 Opción 2 — En terminal (VS Code / CMD)
+- 🔹 Opción 1 — En terminal (VS Code / CMD)
 bash
 dotnet new console -n CatalogoCursos
 cd CatalogoCursos
@@ -86,7 +86,7 @@ ________________________________________________________________________________
 
 - ▶️ Ejecución del programa
 
-### 🔹 Opción 1 — En Visual Studio
+-  🔹 Opción 1 — En Visual Studio
 1. Crear un nuevo proyecto de consola (.NET).
 2. Copiar el contenido del archivo `Program.cs`.
 3. Presionar **Ctrl + F5** para ejecutar.
@@ -96,7 +96,7 @@ ________________________________________________________________________________
 
 //////  CATÁLOGO COMPLETO DE RECURSOS  ///////
 
-Hay 5 cursos registrados.
+Hay 5 cursos registrados
 --------------------------------------------------
 1. Ver Listado Completo (con Paginación)
 2. Buscar Cursos (por Título, Descripción o Responsable)

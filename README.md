@@ -95,9 +95,7 @@ ________________________________________________________________________________
 
 **💻 Ejemplo de uso**
 
-***//////  CATÁLOGO COMPLETO DE RECURSOS  ///////***
-
-*Hay 5 cursos registrados*
+**//////  CATÁLOGO COMPLETO DE RECURSOS  ///////**
 --------------------------------------------------
 1. Ver Listado Completo (con Paginación)
 2. Buscar Cursos (por Título, Descripción o Responsable)

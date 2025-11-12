@@ -28,13 +28,14 @@ namespace CatalogoCursosApp
     public class Program
     {
         // 2. Aquí guardamos la lista de todos los cursos
+
         private static List<Curso> Cursos = new List<Curso>
         {
             // Creamos 5 cursos de ejemplo
             new Curso { Id = 101, Titulo = "Introducción a .NET Core", Descripcion = "Conceptos básicos de la plataforma .NET.", Responsable = "Ana Pérez", Estado = "Finalizado" },
             new Curso { Id = 102, Titulo = "Programación Asíncrona con C#", Descripcion = "Uso de tareas concurrentes con async/await.", Responsable = "Juan López", Estado = "En Curso" },
             new Curso { Id = 103, Titulo = "Desarrollo de Pantallas con React", Descripcion = "Creación de interfaces de usuario modernas.", Responsable = "Ana Pérez", Estado = "Pendiente" },
-            new Curso { Id = 104, Titulo = "Bases de Datos Avanzadas", Descripcion = "Optimización y administración de bases de datos.", Responsable = "María Gómez", Estado = "Finalizado" },
+            new Curso { Id = 104, Titulo = "Bases de Datos Avanzadas", Descripcion = "Optimización y administración de bases de datos ", Responsable = "María Gómez", Estado = "Finalizado" },
             new Curso { Id = 105, Titulo = "Patrones de Diseño de Software", Descripcion = "Estudio de las estructuras de código más comunes.", Responsable = "Juan López", Estado = "En Curso" }
         };
 

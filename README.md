@@ -2,11 +2,11 @@
 
 📚 Catálogo de Cursos Digitales – Equipo 5
 
->>> Proyecto Académico | Ingeniería en Sistemas <<<
+~ Proyecto Académico | Ingeniería en Sistemas 
 
 ---------------------------------------------------------------------------------------------------------------------------
 
- 1. Descripción General del Proyecto
+📔1. Descripción General del Proyecto
 
 Este proyecto académico simula el desarrollo de una mini-aplicación de consola en **C#** (`.NET Console Application`) 
 que funciona como un catálogo interactivo de cursos. Su objetivo principal fue implementar y demostrar un flujo de trabajo 

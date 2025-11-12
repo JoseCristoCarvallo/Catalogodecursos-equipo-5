@@ -95,7 +95,7 @@ namespace CatalogoCursosApp
             Console.ReadKey();
         }
 
-        // Método para dibujar el menú principal
+        // Método para dibujar el menú
         private static void DisplayMenu()
         {
             Console.ForegroundColor = ConsoleColor.Cyan; // Pone el color del texto en Cyan

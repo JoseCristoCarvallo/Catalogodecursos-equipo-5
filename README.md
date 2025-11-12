@@ -76,7 +76,7 @@ dotnet run
 bash
 dotnet new console -n CatalogoCursos
 cd CatalogoCursos
-# Reemplazar Program.cs con el código del repositorio
+*Reemplazar Program.cs con el código del repositorio*
 dotnet run
 __________________________________________________________________________________
 

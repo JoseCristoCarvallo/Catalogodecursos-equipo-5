@@ -73,11 +73,11 @@ cd CatalogoApp
 dotnet run
 
 *- 🔹 Opción 1 — En terminal (VS Code / CMD)*
-bash
-dotnet new console -n CatalogoCursos
-cd CatalogoCursos
-*Reemplazar Program.cs con el código del repositorio*
-dotnet run
+- bash
+1. dotnet new console -n CatalogoCursos
+2. cd CatalogoCursos
+3. *Reemplazar Program.cs con el código del repositorio*
+4. dotnet run
 
 ///////////////////////////////////////////////////////////////////////////////////
 - **4.3. Ejecución en Visual Studio**  

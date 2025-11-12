@@ -23,11 +23,11 @@ eficiente de contenido.
 La aplicación **Catálogo de Cursos** organiza el contenido en distintas áreas temáticas (Inglés, Programación, Economía, Marketing) 
 y ofrece un menú interactivo con las siguientes capacidades:
 
-|....**Funcionalidad**...|..........................................**Descripción**....................................................|
-|........................|.............................................................................................................|
-|.Visualización Completa.|.Muestra la lista exhaustiva de todos los cursos disponibles en el catálogo..................................|
-|.Búsqueda Dinámica......|.Permite filtrar cursos por palabra clave, buscando coincidencias en el nombre o el área de especialización..|
-|.....Detalle por ID.....|.Accede y muestra la información detallada de un curso específico utilizando su identificador único (ID).....|
+- |....**Funcionalidad**...|..........................................**Descripción**....................................................|
+- |........................|.............................................................................................................|
+- |.Visualización Completa.|.Muestra la lista exhaustiva de todos los cursos disponibles en el catálogo..................................|
+- |.Búsqueda Dinámica......|.Permite filtrar cursos por palabra clave, buscando coincidencias en el nombre o el área de especialización..|
+- |.....Detalle por ID.....|.Accede y muestra la información detallada de un curso específico utilizando su identificador único (ID).....|
 
 
 

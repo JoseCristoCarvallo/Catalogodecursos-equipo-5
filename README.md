@@ -1,8 +1,10 @@
+README 
+
 📚 Catálogo de Cursos Digitales – Equipo 5
 
 **Proyecto Académico | Ingeniería en Sistemas
 
------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
 
 ## 1. Descripción General del Proyecto
 
@@ -14,7 +16,7 @@ colaborativo riguroso, utilizando herramientas de gestión de tareas (**Trello**
 El desarrollo se enfocó en la simulación de una arquitectura simple, pero funcional, que permite la visualización y búsqueda 
 eficiente de contenido.
 
------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
 
 🎯 2. Funcionalidades de la Aplicación
 
@@ -38,7 +40,7 @@ text
 3. Principios de Economía – Área: Economía
 4. Introducción al Marketing Digital – Área: Marketing
 
------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
  
 ⚙️ 3. Stack Tecnológico y Herramientas
 
@@ -49,18 +51,18 @@ IDE	         | Visual Studio / VS Code | Entorno de desarrollo integrado.       
 Versiones    | 	     Git & GitHub	     | Control de versiones,   branching (ramas) y gestión de Pull Requests.                                       |
 Gestión      | 	        Trello	       | Planificación, seguimiento de tareas (Backlog, In Progress, Done) y gestión de tiempos (Calendar Power-Up). |
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
 
 💻 4. Guía de Ejecución
 Para iniciar la aplicación, siga las instrucciones según su entorno de desarrollo:
-___________________________________________________________________________________________
+__________________________________________________________________________________
 ** 4.1. Estructura del Repositorio ** 
 CataloApp/
 │
 ├── Program.cs           → Lógica principal y manejo de la aplicación.
 └── README.md            → Documento de referencia del proyecto.
-___________________________________________________________________________________________
-** 4.2. Ejecución desde Terminal (VS Code ) **
+__________________________________________________________________________________
+** 4.2. EjecucIón desde Terminal (VS Code ) **
 Asegúrese de tener el SDK de .NET instalado.
 
 # Navegar al directorio raíz del proyecto
@@ -75,7 +77,7 @@ dotnet new console -n CatalogoCursos
 cd CatalogoCursos
 # Reemplazar Program.cs con el código del repositorio
 dotnet run
-__________________________________________________________________________________________
+__________________________________________________________________________________
 ** 4.3. Ejecución en Visual Studio ** 
 
 1. Crear un nuevo proyecto de Aplicación de Consola (.NET).
@@ -89,12 +91,12 @@ ________________________________________________________________________________
 2. Copiar el contenido del archivo `Program.cs`.
 3. Presionar **Ctrl + F5** para ejecutar.
 
-__________________________________________________________________________________________
+__________________________________________________________________________________
 💻 Ejemplo de uso
 
-//////////////////////////////////////////////////
-=           CATÁLOGO COMPLETO DE RECURSOS        =
-//////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+ CATÁLOGO COMPLETO DE RECURSOS        =
+//////////////////////////////////////////////////////////////////
 Hay 5 cursos registrados.
 --------------------------------------------------
 1. Ver Listado Completo (con Paginación)

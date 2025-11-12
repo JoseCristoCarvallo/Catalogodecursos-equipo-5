@@ -1,4 +1,4 @@
-**README**
+##README
 
 📚 Catálogo de Cursos Digitales – Equipo 5
 

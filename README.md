@@ -23,11 +23,11 @@ eficiente de contenido.
 La aplicación **Catálogo de Cursos** organiza el contenido en distintas áreas temáticas (Inglés, Programación, Economía, Marketing) 
 y ofrece un menú interactivo con las siguientes capacidades:
 
-Funcionalidad | Descripción |
-|                        |                                                                                                             |
-| Visualización Completa | Muestra la lista exhaustiva de todos los cursos disponibles en el catálogo.                                 |
-| Búsqueda Dinámica      | Permite filtrar cursos por palabra clave, buscando coincidencias en el nombre o el área de especialización. |
-| Detalle por ID         | Accede y muestra la información detallada de un curso específico utilizando su identificador único (ID).    |
+- |      Funcionalidad     |                                            Descripción                                                      |
+- |                        |                                                                                                             |
+- | Visualización Completa | Muestra la lista exhaustiva de todos los cursos disponibles en el catálogo.                                 |
+- | Búsqueda Dinámica      | Permite filtrar cursos por palabra clave, buscando coincidencias en el nombre o el área de especialización. |
+- | Detalle por ID         | Accede y muestra la información detallada de un curso específico utilizando su identificador único (ID).    |
 
 
 
@@ -45,12 +45,12 @@ text
  
 **⚙️ 3. Stack Tecnológico y Herramientas**
 
-**Categoría**    |	**Tecnología/Herramienta** |	**Uso Específico**                                                                                          |
-Lenguaje	        |             C#	            |  Lógica de negocio e interfaz de consola.                                                                   |
-Plataforma	      |            .NET	           |  Framework de la aplicación de consola.                                                                     |
-IDE	             |   Visual Studio / VS Code  | Entorno de desarrollo integrado.                                                                            |
-Versiones        | 	      Git & GitHub	       | Control de versiones,   branching (ramas) y gestión de Pull Requests.                                       |
-Gestión          | 	          Trello	         | Planificación, seguimiento de tareas (Backlog, In Progress, Done) y gestión de tiempos (Calendar Power-Up). |
+- **Categoría**    |	**Tecnología/Herramienta** |	**Uso Específico**                                                                                          |
+- Lenguaje	        |             C#	            |  Lógica de negocio e interfaz de consola.                                                                   |
+- Plataforma	      |            .NET	           |  Framework de la aplicación de consola.                                                                     |
+- IDE	             |   Visual Studio / VS Code  | Entorno de desarrollo integrado.                                                                            |
+- Versiones        | 	      Git & GitHub	       | Control de versiones,   branching (ramas) y gestión de Pull Requests.                                       |
+- Gestión          | 	          Trello	         | Planificación, seguimiento de tareas (Backlog, In Progress, Done) y gestión de tiempos (Calendar Power-Up). |
  
 ---------------------------------------------------------------------------------------------------------------------------
 
@@ -60,10 +60,10 @@ Para iniciar la aplicación, siga las instrucciones según su entorno de desarro
 __________________________________________________________________________________
 **4.1. Estructura del Repositorio** 
 
-CataloApp/
-│
-├── Program.cs           → Lógica principal y manejo de la aplicación.
-└── README.md            → Documento de referencia del proyecto.
+- CataloApp/
+- │
+- ├── Program.cs           → Lógica principal y manejo de la aplicación.
+- └── README.md            → Documento de referencia del proyecto.
 __________________________________________________________________________________
 
 ** 4.2. EjecucIón desde Terminal (VS Code ) **
@@ -151,6 +151,7 @@ Equipo 5 – Ingeniería en Sistemas
 
 --------------------------------------------------------------------------------------------------
 **🧾 Flujo de trabajo Trello y GitHub**
+
 *> Trello:*
   - Listas: Backlog → In Progress → Ready → Review/QA → Done
   - Power-Up: Calendar activado con fechas asignadas

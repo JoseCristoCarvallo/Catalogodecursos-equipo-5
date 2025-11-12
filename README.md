@@ -1,4 +1,4 @@
-**README**
+# README
 
 *📚 Catálogo de Cursos Digitales – Equipo 5*
 
@@ -6,7 +6,7 @@
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-📔1. Descripción General del Proyecto
+**📔1. Descripción General del Proyecto**
 
 Este proyecto académico simula el desarrollo de una mini-aplicación de consola en **C#** (`.NET Console Application`) 
 que funciona como un catálogo interactivo de cursos. Su objetivo principal fue implementar y demostrar un flujo de trabajo 
@@ -18,7 +18,7 @@ eficiente de contenido.
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-🎯 2. Funcionalidades de la Aplicación
+**🎯 2. Funcionalidades de la Aplicación**
 
 La aplicación **Catálogo de Cursos** organiza el contenido en distintas áreas temáticas (Inglés, Programación, Economía, Marketing) 
 y ofrece un menú interactivo con las siguientes capacidades:

@@ -107,7 +107,7 @@ Hay 5 cursos registrados.
 Selecciona una opción (1-3):
 
 > Si selecciona 1, se muestran los 5 cursos.
-> Si selecciona 2, puede escribir los t[itulos para filtrar.
+> Si selecciona 2, puede escribir los tÍtulos para filtrar.
 > Si selecciona 3, sale del programa
 
 --------------------------------------------------------------------------------------------------

@@ -63,7 +63,7 @@ text
 - README.md            → Documento de referencia del proyecto.
 
 ///////////////////////////////////////////////////////////////////////////////////
-// **4.2. EjecucIón desde Terminal (VS Code )** //
+- **4.2. EjecucIón desde Terminal (VS Code )** 
 Asegúrese de tener el SDK de .NET instalado.
 
 - Navegar al directorio raís del proyecto
@@ -80,7 +80,7 @@ cd CatalogoCursos
 dotnet run
 
 ///////////////////////////////////////////////////////////////////////////////////
-// **4.3. Ejecución en Visual Studio**  //
+- **4.3. Ejecución en Visual Studio**  
 
 1. Crear un nuevo proyecto de Aplicación de Consola (.NET).
 2. Reemplazar el contenido del archivo Program.cs con el código fuente del repositorio.

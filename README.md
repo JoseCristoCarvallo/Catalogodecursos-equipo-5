@@ -62,8 +62,8 @@ text
 - Program.cs           → Lógica principal y manejo de la aplicación.
 - README.md            → Documento de referencia del proyecto.
 
-------------------------------------------------------------------------------------
-**4.2. EjecucIón desde Terminal (VS Code )**
+///////////////////////////////////////////////////////////////////////////////////
+// **4.2. EjecucIón desde Terminal (VS Code )** //
 Asegúrese de tener el SDK de .NET instalado.
 
 - Navegar al directorio raís del proyecto
@@ -79,8 +79,8 @@ cd CatalogoCursos
 *Reemplazar Program.cs con el código del repositorio*
 dotnet run
 
------------------------------------------------------------------------------------
-**4.3. Ejecución en Visual Studio** 
+///////////////////////////////////////////////////////////////////////////////////
+// **4.3. Ejecución en Visual Studio**  //
 
 1. Crear un nuevo proyecto de Aplicación de Consola (.NET).
 2. Reemplazar el contenido del archivo Program.cs con el código fuente del repositorio.
@@ -130,7 +130,7 @@ aprobación del PR.
 -------------------------------------------------------------------------------------------------
 
 **🤖 6. Nota sobre GitHub Copilot (Opcional)**
-Algunas líneas de apoyo y estructuras básicas del código fueron generadas con asistencia 
+- Algunas líneas de apoyo y estructuras básicas del código fueron generadas con asistencia 
 de GitHub Copilot, las cuales fueron posteriormente revisadas y adaptadas manualmente
 por el grupo para asegurar la lógica del negocio.
 

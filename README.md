@@ -1,12 +1,12 @@
-README 
+# README
 
-📚 Catálogo de Cursos Digitales – Equipo 5
+*📚 Catálogo de Cursos Digitales – Equipo 5*
 
-**Proyecto Académico | Ingeniería en Sistemas
+~ Proyecto Académico | Ingeniería en Sistemas ~
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-## 1. Descripción General del Proyecto
+**📔1. Descripción General del Proyecto**
 
 Este proyecto académico simula el desarrollo de una mini-aplicación de consola en **C#** (`.NET Console Application`) 
 que funciona como un catálogo interactivo de cursos. Su objetivo principal fue implementar y demostrar un flujo de trabajo 
@@ -18,19 +18,18 @@ eficiente de contenido.
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-🎯 2. Funcionalidades de la Aplicación
+**🎯 2. Funcionalidades de la Aplicación**
 
 La aplicación **Catálogo de Cursos** organiza el contenido en distintas áreas temáticas (Inglés, Programación, Economía, Marketing) 
 y ofrece un menú interactivo con las siguientes capacidades:
 
-Funcionalidad | Descripción |
-|                        |                                                                                                             |
-| Visualización Completa | Muestra la lista exhaustiva de todos los cursos disponibles en el catálogo.                                 |
-| Búsqueda Dinámica      | Permite filtrar cursos por palabra clave, buscando coincidencias en el nombre o el área de especialización. |
-| Detalle por ID         | Accede y muestra la información detallada de un curso específico utilizando su identificador único (ID).    |
+- **Visualización Completa**> Muestra la lista exhaustiva de todos los cursos disponibles en el catálogo.
+- **Búsqueda Dinámica**> Permite filtrar cursos por palabra clave, buscando coincidencias en el nombre o el área de especialización.
+- **Detalle por ID**> Accede y muestra la información detallada de un curso específico utilizando su identificador único (ID).
 
 
-🧠 Estructura de Datos (Ejemplo)
+
+*🧠 Estructura de Datos (Ejemplo)*
 
 La aplicación gestiona una colección de datos con la siguiente estructura base:
 
@@ -42,86 +41,85 @@ text
 
 ---------------------------------------------------------------------------------------------------------------------------
  
-⚙️ 3. Stack Tecnológico y Herramientas
+**⚙️ 3. Stack Tecnológico y Herramientas**
 
-Categoría    |	Tecnología/Herramienta |	Uso Específico                                                                                             |
-Lenguaje	   |           C#	           |  Lógica de negocio e interfaz de consola.                                                                   |
-Plataforma	 |          .NET	         |  Framework de la aplicación de consola.                                                                     |
-IDE	         | Visual Studio / VS Code | Entorno de desarrollo integrado.                                                                            |
-Versiones    | 	     Git & GitHub	     | Control de versiones,   branching (ramas) y gestión de Pull Requests.                                       |
-Gestión      | 	        Trello	       | Planificación, seguimiento de tareas (Backlog, In Progress, Done) y gestión de tiempos (Calendar Power-Up). |
-
+- **Lenguaje** *< C >* :Lógica de negocio e interfaz de consola.
+- **Plataforma** *< .NET >* :Framework de la aplicación de consola.                                                                     
+- **IDE**  *< Visual Studio / VS Code >* :Entorno de desarrollo integrado.                                                                            |
+- **Versiones** *< Git & GitHub >* :Control de versiones,   branching (ramas) y gestión de Pull Requests.                                       |
+- **Gestión**  *< Trello	>* :Planificación, seguimiento de tareas (Backlog, In Progress, Done) y gestión de tiempos (Calendar Power-Up). |
+ 
 ---------------------------------------------------------------------------------------------------------------------------
 
-💻 4. Guía de Ejecución
-Para iniciar la aplicación, siga las instrucciones según su entorno de desarrollo:
-__________________________________________________________________________________
-** 4.1. Estructura del Repositorio ** 
-CataloApp/
-│
-├── Program.cs           → Lógica principal y manejo de la aplicación.
-└── README.md            → Documento de referencia del proyecto.
-__________________________________________________________________________________
-** 4.2. EjecucIón desde Terminal (VS Code ) **
+**💻 4. Guía de Ejecución**
+
+- Para iniciar la aplicación, siga las instrucciones según su entorno de desarrollo:
+
+**4.1. Estructura del Repositorio** 
+
+- CataloApp/
+- │
+- Program.cs           → Lógica principal y manejo de la aplicación.
+- README.md            → Documento de referencia del proyecto.
+
+///////////////////////////////////////////////////////////////////////////////////
+- **4.2. EjecucIón desde Terminal (VS Code )** 
 Asegúrese de tener el SDK de .NET instalado.
 
-# Navegar al directorio raíz del proyecto
+- Navegar al directorio raís del proyecto
 cd CatalogoApp
 
-# Compilar y ejecutar la aplicación
+- Compilar y ejecutar el programa
 dotnet run
 
-### 🔹 Opción 2 — En terminal (VS Code / CMD)
-bash
-dotnet new console -n CatalogoCursos
-cd CatalogoCursos
-# Reemplazar Program.cs con el código del repositorio
-dotnet run
-__________________________________________________________________________________
-** 4.3. Ejecución en Visual Studio ** 
+*- 🔹 Opción 1 — En terminal (VS Code / CMD)*
+- bash
+1. dotnet new console -n CatalogoCursos
+2. cd CatalogoCursos
+3. *Reemplazar Program.cs con el código del repositorio*
+4. dotnet run
+
+///////////////////////////////////////////////////////////////////////////////////
+- **4.3. Ejecución en Visual Studio**  
 
 1. Crear un nuevo proyecto de Aplicación de Consola (.NET).
 2. Reemplazar el contenido del archivo Program.cs con el código fuente del repositorio.
 3. Presionar Ctrl + F5 para ejecutar la aplicación sin depuración.
 
-## ▶️ Ejecución del programa
-
-### 🔹 Opción 1 — En Visual Studio
+*-  🔹 Opción 1 — En Visual Studio*
 1. Crear un nuevo proyecto de consola (.NET).
 2. Copiar el contenido del archivo `Program.cs`.
 3. Presionar **Ctrl + F5** para ejecutar.
 
 __________________________________________________________________________________
-💻 Ejemplo de uso
 
-////////////////////////////////////////////////////////////////////
- CATÁLOGO COMPLETO DE RECURSOS        =
-//////////////////////////////////////////////////////////////////
+**💻 Ejemplo de uso**
 
-Hay 5 cursos registrados.
---------------------------------------------------
+**//////  CATÁLOGO COMPLETO DE RECURSOS  ///////**
+
+*Hay 5 recursos registrados*
 1. Ver Listado Completo (con Paginación)
 2. Buscar Cursos (por Título, Descripción o Responsable)
 3. Salir del Programa
---------------------------------------------------
+
 Selecciona una opción (1-3):
 
-> Si selecciona 1, se muestran los 5 cursos.
-> Si selecciona 2, puede escribir los tÍtulos para filtrar.
-> Si selecciona 3, sale del programa
+- Si selecciona 1, se muestran los 5 cursos.
+- Si selecciona 2, puede escribir los tÍtulos para filtrar.
+- Si selecciona 3, sale del programa
 
 --------------------------------------------------------------------------------------------------
 
-🤝 5. Metodología y Control de Versiones
+**🤝 5. Metodología y Control de Versiones**
 Se implementó una metodología de desarrollo colaborativo utilizando las mejores
 prácticas de GitHub y Trello.
 
-** 5.1. Control de Tareas (Trello) **
+*5.1. Control de Tareas (Trello)*
 - Flujo del Tablero: Backlog → In Progress → Ready → Review/QA → Done.
 - Gestión del Tiempo: Uso del Calendar Power-Up para la asignación de fechas límite
 y la programación de entregas.
 
-** 5.2. Control de Versiones (Git/GitHub) **
+*5.2. Control de Versiones (Git/GitHub)*
 - Rama Principal: main (Rama estable de producción).
 - Rama de Desarrollo: feature/catalogo-App (Rama de trabajo para la implementación de
 funcionalidades).
@@ -130,13 +128,15 @@ funcionalidades).
 aprobación del PR.
 
 -------------------------------------------------------------------------------------------------
-🤖 6. Nota sobre GitHub Copilot (Opcional)
-Algunas líneas de apoyo y estructuras básicas del código fueron generadas con asistencia 
+
+**🤖 6. Nota sobre GitHub Copilot (Opcional)**
+- Algunas líneas de apoyo y estructuras básicas del código fueron generadas con asistencia 
 de GitHub Copilot, las cuales fueron posteriormente revisadas y adaptadas manualmente
 por el grupo para asegurar la lógica del negocio.
 
 -------------------------------------------------------------------------------------------------
-👥 7. Integrantes del Equipo
+
+**👥 7. Integrantes del Equipo**
 Equipo 5 – Ingeniería en Sistemas
 
 - José Cristo Carvallo Herrera. 
@@ -146,20 +146,21 @@ Equipo 5 – Ingeniería en Sistemas
 - Angel Augusto Lopez Chavez.
 
 --------------------------------------------------------------------------------------------------
-🧾 Flujo de trabajo Trello y GitHub
-> Trello:
+**🧾 Flujo de trabajo Trello y GitHub**
+
+*> Trello:*
   - Listas: Backlog → In Progress → Ready → Review/QA → Done
   - Power-Up: Calendar activado con fechas asignadas
   - Evidencias adjuntas (capturas del tablero y app en ejecución)
 
-> GitHub:
+*> GitHub:*
   - Rama principal: main
   - Rama de desarrollo: feature/catalogo-cursos
   - Commit principal: feat: agregar estructura y listado de cursos
   - PR revisado y mergeado a main
 
 -------------------------------------------------------------------------------------------------
-## 🧾 Reporte de Estatus Final (5-6 Líneas)
+**🧾 Reporte de Estatus Final (5-6 Líneas)**
 
 El proyecto Catálogo de Cursos ha concluido con un 100% de avance y ha cumplido todos 
 los objetivos funcionales y metodológicos. Se logró una aplicación funcional en C# que permite
@@ -170,7 +171,7 @@ identificados, validando la integración exitosa de la gestión de proyectos, el
 versiones y la programación básica en C#.
 
 ------------------------------------------------------------------------------------------------
-✅ 🏁 Logros Clave 
+**✅ 🏁 Logros Clave**
 Este proyecto no solo resultó en una aplicación funcional, sino que también demostró la 
 dominación de un flujo de trabajo de desarrollo moderno y la aplicación de conceptos 
 fundamentales de programación y gestión.
@@ -214,15 +215,15 @@ de la planificación (Trello) a la implementación (C#) y al despliegue/control 
 cumpliendo todos los requisitos funcionales.
 
 ------------------------------------------------------------------------------------------------
-✅ 8. Conclusión y Reporte de Cierre
+**✅ 8. Conclusión y Reporte de Cierre**
 El proyecto ha sido completado al 100%, cumpliendo con todos los requerimientos 
 funcionales y metodológicos establecidos.
 
-📊 Reporte de Estatus
+*📊 Reporte de Estatus*
 - Avance General: 100% (Todas las tarjetas de Trello en el estado Done).
 - Riesgos Identificados: Ninguno al cierre del proyecto.
 
-💡 Lecciones Aprendidas Clave
+*💡 Lecciones Aprendidas Clave*
 - La planificación detallada de tareas con Trello es crucial para la organización y
 la gestión eficaz del tiempo en proyectos colaborativos.
 - Git y GitHub son herramientas fundamentales para asegurar la integridad del código,
@@ -231,7 +232,6 @@ facilitar la revisión entre pares y mantener un historial de versiones claro.
 programación y estructuras de datos.
 
 -------------------------------------------------------------------------------------------------
-
 
 
 

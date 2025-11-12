@@ -65,10 +65,10 @@ ________________________________________________________________________________
 ** 4.2. EjecucIón desde Terminal (VS Code ) **
 Asegúrese de tener el SDK de .NET instalado.
 
-# Navegar al directorio raíz del proyecto
+# Navegar al directorio raís del proyecto
 cd CatalogoApp
 
-# Compilar y ejecutar la aplicación
+# Compilar y ejecutar el programa
 dotnet run
 
 ### 🔹 Opción 2 — En terminal (VS Code / CMD)

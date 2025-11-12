@@ -96,16 +96,17 @@ ________________________________________________________________________________
 **💻 Ejemplo de uso**
 
 **//////  CATÁLOGO COMPLETO DE RECURSOS  ///////**
---------------------------------------------------
+
+*Hay 5 recursos registrados*
 1. Ver Listado Completo (con Paginación)
 2. Buscar Cursos (por Título, Descripción o Responsable)
 3. Salir del Programa
---------------------------------------------------
+
 Selecciona una opción (1-3):
 
-> Si selecciona 1, se muestran los 5 cursos.
-> Si selecciona 2, puede escribir los tÍtulos para filtrar.
-> Si selecciona 3, sale del programa
+- Si selecciona 1, se muestran los 5 cursos.
+- Si selecciona 2, puede escribir los tÍtulos para filtrar.
+- Si selecciona 3, sale del programa
 
 --------------------------------------------------------------------------------------------------
 

@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\C#\Catalogodecursos-equipo-5-2\CatalogoAPP\bin\Debug\net9.0\CatalogoApp.exe
+C:\Users\User\OneDrive\C#\Catalogodecursos-equipo-5-2\CatalogoAPP\bin\Debug\net9.0\CatalogoApp.deps.json
+C:\Users\User\OneDrive\C#\Catalogodecursos-equipo-5-2\CatalogoAPP\bin\Debug\net9.0\CatalogoApp.runtimeconfig.json
+C:\Users\User\OneDrive\C#\Catalogodecursos-equipo-5-2\CatalogoAPP\bin\Debug\net9.0\CatalogoApp.dll
+C:\Users\User\OneDrive\C#\Catalogodecursos-equipo-5-2\CatalogoAPP\bin\Debug\net9.0\CatalogoApp.pdb
+C:\Users\User\OneDrive\C#\Catalogodecursos-equipo-5-2\CatalogoAPP\obj\Debug\net9.0\CatalogoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\C#\Catalogodecursos-equipo-5-2\CatalogoAPP\obj\Debug\net9.0\CatalogoApp.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\C#\Catalogodecursos-equipo-5-2\CatalogoAPP\obj\Debug\net9.0\CatalogoApp.AssemblyInfo.cs
+C:\Users\User\OneDrive\C#\Catalogodecursos-equipo-5-2\CatalogoAPP\obj\Debug\net9.0\CatalogoApp.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\C#\Catalogodecursos-equipo-5-2\CatalogoAPP\obj\Debug\net9.0\CatalogoApp.sourcelink.json
+C:\Users\User\OneDrive\C#\Catalogodecursos-equipo-5-2\CatalogoAPP\obj\Debug\net9.0\CatalogoApp.dll
+C:\Users\User\OneDrive\C#\Catalogodecursos-equipo-5-2\CatalogoAPP\obj\Debug\net9.0\refint\CatalogoApp.dll
+C:\Users\User\OneDrive\C#\Catalogodecursos-equipo-5-2\CatalogoAPP\obj\Debug\net9.0\CatalogoApp.pdb
+C:\Users\User\OneDrive\C#\Catalogodecursos-equipo-5-2\CatalogoAPP\obj\Debug\net9.0\CatalogoApp.genruntimeconfig.cache
+C:\Users\User\OneDrive\C#\Catalogodecursos-equipo-5-2\CatalogoAPP\obj\Debug\net9.0\ref\CatalogoApp.dll

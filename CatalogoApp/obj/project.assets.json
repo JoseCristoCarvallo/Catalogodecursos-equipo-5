@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive\\C#\\Catalogodecursos-equipo-5-1\\CatalogoApp\\CatalogoApp.csproj",
+      "projectUniqueName": "C:\\Users\\User\\OneDrive\\C#\\Catalogodecursos-equipo-5-2\\CatalogoApp\\CatalogoApp.csproj",
       "projectName": "CatalogoApp",
-      "projectPath": "C:\\Users\\User\\OneDrive\\C#\\Catalogodecursos-equipo-5-1\\CatalogoApp\\CatalogoApp.csproj",
+      "projectPath": "C:\\Users\\User\\OneDrive\\C#\\Catalogodecursos-equipo-5-2\\CatalogoApp\\CatalogoApp.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive\\C#\\Catalogodecursos-equipo-5-1\\CatalogoApp\\obj\\",
+      "outputPath": "C:\\Users\\User\\OneDrive\\C#\\Catalogodecursos-equipo-5-2\\CatalogoApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
